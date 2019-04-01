@@ -1,0 +1,59 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "globals": {
+    "DEBUG": false,
+    "debug": false,
+    "gettext": false,
+    "ngettext": false,
+    "pgettext": false,
+    "dvbManager": false,
+    "gSTB": false,
+    "pvrManager": false,
+    "stbDownloadManager": false,
+    "stbStorage": false,
+    "stbUpdate": false,
+    "stbWebWindow": false,
+    "stbWildWebWindow": false,
+    "stbWindowMgr": false,
+    "timeShift": false,
+    "i18nMgg": true,
+    "mainConfigMgg": true,
+    "scaleNumber": true,
+    "ga": true
+  },
+  "rules": {
+    "linebreak-style": 0,
+    "import/no-unresolved": 0,
+    "global-require": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "import/order": 0,
+    "no-underscore-dangle": 0,
+    "consistent-return": 0,
+    "prefer-arrow-callback": 0,
+    "func-names": 0,
+    "object-curly-spacing": 0,
+    "comma-dangle": 0,
+    "no-param-reassign": 1, // обсудить стоит это
+    "object-shorthand": 0, // обсудить стоит это
+    "no-confusing-arrow": 0,
+    "import/prefer-default-export": 0,
+    "camelcase": 0,
+    "react/prop-types": 0,
+    "import/extensions": 0,
+    "react/destructuring-assignment": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
